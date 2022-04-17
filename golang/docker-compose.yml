@@ -1,0 +1,7 @@
+version: "3"
+services:
+  web:
+    container_name: golang_app
+    build: .
+    ports:
+      - "7008:7008"
